@@ -56,7 +56,7 @@ class startpage():
         self.frame.rowconfigure(1, weight=1)
         self.frame.rowconfigure(2, weight=1)
         self.frame.grid(row=0, column=0, columnspan=3, rowspan=3)
-        pth = r"_554b6762-1b58-43dd-a4e7-a8a862273da2.jpeg"
+        pth = r"./assets/mainpage.jpeg"
         self.myimg = ImageTk.PhotoImage(Image.open(pth).resize((600, 600)))
         self.lbl = tk.Label(self.frame, anchor="center", image=self.myimg)
         self.lbl.grid()
